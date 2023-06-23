@@ -1,0 +1,27 @@
+@media screen and (min-width: 1000px) {
+  .main-heading {
+    max-width: 750px;
+    justify-content: space-between;
+
+    .main-heading__body {
+      max-width: 300px;
+    }
+  }
+
+
+  .main-galery {
+    max-width: 750px;
+    gap: 20px;
+
+    .main-galery__image-container:nth-child(even){
+      margin-top: initial;
+    }
+    .main-galery__image-container{
+      @include card_style($max_width: 100%, $margin_top: 0px, $width: 30%);
+    }
+
+    .main-galery__image-container:nth-child(3n - 1) {
+      margin-top: 60px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "sass": "^1.63.6"
+  },
+  "name": "my-team-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GomezJuanEfe/my-team-page.git"
+  },
+  "author": "Juan Felipe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GomezJuanEfe/my-team-page/issues"
+  },
+  "homepage": "https://github.com/GomezJuanEfe/my-team-page#readme",
+  "description": ""
+}

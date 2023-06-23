@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 62.5%;
+}
+
+
+/* VARIABLES */
+
+$font-sm: 1.4rem;
+$font-md: $font-sm + 0.4rem;
+$font-lg: 3.2rem;
+
+/* /VARIABLES */
+
+
+/* Mixins */
+
+@mixin card_style ($max_width: 200px, $margin_top: 0px, $width: 47%) {
+  max-width: $max_width;
+  width: $width;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: baseline;
+
+  margin-top: $margin_top;
+}
+
+/* /Mixins */
