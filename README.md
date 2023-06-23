@@ -6,7 +6,7 @@ This is a solution to the My Team Page project of the Make It Real course.
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [The result](#the-result)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
